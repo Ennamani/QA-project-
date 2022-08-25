@@ -1,0 +1,12 @@
+flask
+flask_sqlalchemy
+flask_wtf
+flask_testing
+wtforms
+pymysql
+pytest
+cryptography
+flask-sqlalchemy
+sqlalchemy
+schema
+greenlet
