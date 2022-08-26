@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+    <link rel="tab icon" href="https://i.pinimg.com/originals/cb/7d/48/cb7d48c589412612f5fd4a554e36a325.png">
+</head>
+<body style="background-color:black">
+<p style="color:white">These are the colleges. Click for the Programs</p>
+<table style="color:white">
+        <thead>
+            <tr>
+                <th style="border: 1px solid white">College ID</th>
+                <th style="border: 1px solid white">College Name</th>
+                <th style="border: 1px solid white">Programs available here!</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for college in list_of_names %}
+            <tr>
+                <td style="border: 1px solid white">{{college.college_id}}</td>
+                <td style="border: 1px solid white">{{college.college_name}}</td>
+                <td style="border: 1px solid white"><a style="color:blue" href="{{url_for('programslist',id=college.college_id)}}">Programs</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+<p>&nbsp;</p>
+<a style="color:blue" href={{url_for('home_page')}}>move back to home</a><br>
+
+</body>
+</html>
