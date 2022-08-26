@@ -31,19 +31,6 @@ This will encourage students to come forward by inputing their details. As a res
 
 
 
-## Packages Used
-
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-
 ## Project Status
 Project is: _in progress
 
@@ -51,6 +38,10 @@ Project is: _in progress
 [ screenshot](./img/screenshot.png)![](/C:\Users\ene\Desktop\CloudDevOps Bootcamp\Project\Entity relationship diagram.png)
 
 ![](/C:\Users\ene\Desktop\CloudDevOps Bootcamp\Project\Degree of a relationship diagram.PNG)
+
+## Video link
+[a link] (https://github.com/user/repo/blob/branch/other_file.md)
+[a link] (https://github.com/user/repo/blob/branch/other_file.md)
 
 ## Room for Improvement
 
