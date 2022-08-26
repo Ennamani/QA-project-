@@ -1,6 +1,6 @@
 pipeline{
     environment {
-        registry = "paulmercer/flaskdemo"
+        registry = "enennamani/flaskdemo"
         registryCredentials = "dockerhub_id"
         dockerImage = ""
         HOME = "${env.WORKSPACE}"
@@ -8,7 +8,7 @@ pipeline{
 
     agent any
         stages {
-            
+
 
             stage ('Build Docker Image'){
                 steps{
